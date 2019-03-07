@@ -1,0 +1,16 @@
+#ifndef StateName_inc
+#define StateName_inc
+
+enum class StateName {
+    OPENED_CONNECTION,
+    CLOSED_CONNECTION,
+    DISCONNECTING,
+    DEPOSIT_STARTED,
+    BAR_CODE_READED,
+    RECEIVING_ENVELOPE,
+    DOOR_CLOSED,
+    ENVELOPE_RECEIVED,
+    DEPOSIT_COMPLETED
+};
+
+#endif
